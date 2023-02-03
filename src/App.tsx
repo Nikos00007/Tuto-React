@@ -3,6 +3,7 @@ import Pokemon from './models/pokemon';
 import POKEMONS from './models/mocks-pokemon';
   
 const App: FunctionComponent = () => {
+ const [name]=useState('react');   
  
  const [pokemons]=useState<Pokemon[]>(POKEMONS);
     
@@ -10,7 +11,8 @@ const App: FunctionComponent = () => {
      <div>
          <h1>Pokedex</h1>
          <p>
-             Il y a {pokemons.length} pokemons dans la Pokedex
+             Il y a {pokemons.length} pokemons  dans la Pokedex
+             {name}
          </p>
 
 
