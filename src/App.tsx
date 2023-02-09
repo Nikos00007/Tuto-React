@@ -24,7 +24,7 @@ const App: FunctionComponent = () => {
                             </div>
                             <div className='card-stacked'>
                                 <div className='card-body'>
-                                    <p>{name} </p>
+                                    <p>{name} n</p>
                                     <p> <small>{created.toString()} </small> </p>:
                                 </div>
 
